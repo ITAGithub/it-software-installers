@@ -1,8 +1,8 @@
 ﻿<Configuration>
-  <Group Name="Settings" Version="5.1.0" TimeSaved="12/19/2023 11:58:23 AM (UTC -5:00)">
+  <Group Name="Settings" Version="5.1.0" TimeSaved="12/22/2023 10:06:06 AM (UTC -5:00)">
     <Group Name="General">
       <Property Name="SettingsModifiedTime">
-        <Value>12/19/2023 11:58:03 AM</Value>
+        <Value>12/22/2023 10:02:26 AM</Value>
       </Property>
       <Property Name="DownloadPath" Default="ValueIsDefault" />
       <Property Name="CustomCatalogPaths" Default="ValueIsDefault" />
@@ -24,10 +24,14 @@
       </Group>
     </Group>
     <Group Name="Schedule">
-      <Property Name="ScheduleMode" Default="ValueIsDefault" />
+      <Property Name="ScheduleMode">
+        <Value>Daily</Value>
+      </Property>
       <Property Name="MonthlyScheduleMode" Default="ValueIsDefault" />
       <Property Name="WeekOfMonth" Default="ValueIsDefault" />
-      <Property Name="Time" Default="ValueIsDefault" />
+      <Property Name="Time">
+        <Value>2023-12-22T15:00:00</Value>
+      </Property>
       <Property Name="DayOfWeek" Default="ValueIsDefault" />
       <Property Name="DayOfMonth" Default="ValueIsDefault" />
       <Property Name="AutomationMode">
