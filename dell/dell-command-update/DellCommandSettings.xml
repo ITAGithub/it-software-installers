@@ -1,8 +1,8 @@
 ﻿<Configuration>
-  <Group Name="Settings" Version="5.1.0" TimeSaved="12/22/2023 10:06:06 AM (UTC -5:00)">
+  <Group Name="Settings" Version="5.1.0" TimeSaved="1/17/2024 3:38:29 PM (UTC -5:00)">
     <Group Name="General">
       <Property Name="SettingsModifiedTime">
-        <Value>12/22/2023 10:02:26 AM</Value>
+        <Value>1/17/2024 2:27:40 PM</Value>
       </Property>
       <Property Name="DownloadPath" Default="ValueIsDefault" />
       <Property Name="CustomCatalogPaths" Default="ValueIsDefault" />
@@ -30,7 +30,7 @@
       <Property Name="MonthlyScheduleMode" Default="ValueIsDefault" />
       <Property Name="WeekOfMonth" Default="ValueIsDefault" />
       <Property Name="Time">
-        <Value>2023-12-22T15:00:00</Value>
+        <Value>2024-01-17T12:00:00</Value>
       </Property>
       <Property Name="DayOfWeek" Default="ValueIsDefault" />
       <Property Name="DayOfMonth" Default="ValueIsDefault" />
@@ -40,12 +40,24 @@
       <Property Name="ScheduledExecution" Default="ValueIsDefault" />
       <Property Name="DeferUpdate" Default="ValueIsDefault" />
       <Property Name="DisableNotification" Default="ValueIsDefault" />
-      <Property Name="InstallationDeferral" Default="ValueIsDefault" />
-      <Property Name="DeferralInstallInterval" Default="ValueIsDefault" />
-      <Property Name="DeferralInstallCount" Default="ValueIsDefault" />
-      <Property Name="SystemRestartDeferral" Default="ValueIsDefault" />
-      <Property Name="DeferRestartInterval" Default="ValueIsDefault" />
-      <Property Name="DeferRestartCount" Default="ValueIsDefault" />
+      <Property Name="InstallationDeferral">
+        <Value>true</Value>
+      </Property>
+      <Property Name="DeferralInstallInterval">
+        <Value>6</Value>
+      </Property>
+      <Property Name="DeferralInstallCount">
+        <Value>4</Value>
+      </Property>
+      <Property Name="SystemRestartDeferral">
+        <Value>true</Value>
+      </Property>
+      <Property Name="DeferRestartInterval">
+        <Value>1</Value>
+      </Property>
+      <Property Name="DeferRestartCount">
+        <Value>9</Value>
+      </Property>
     </Group>
     <Group Name="UpdateFilter">
       <Property Name="FilterApplicableMode" Default="ValueIsDefault" />
