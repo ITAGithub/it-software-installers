@@ -1,8 +1,8 @@
 ﻿<Configuration>
-  <Group Name="Settings" Version="5.1.0" TimeSaved="1/17/2024 3:38:29 PM (UTC -5:00)">
+  <Group Name="Settings" Version="5.2.0" TimeSaved="2/28/2024 1:24:50 PM (UTC -5:00)">
     <Group Name="General">
       <Property Name="SettingsModifiedTime">
-        <Value>1/17/2024 2:27:40 PM</Value>
+        <Value>2/28/2024 1:24:15 PM</Value>
       </Property>
       <Property Name="DownloadPath" Default="ValueIsDefault" />
       <Property Name="CustomCatalogPaths" Default="ValueIsDefault" />
@@ -35,14 +35,12 @@
       <Property Name="DayOfWeek" Default="ValueIsDefault" />
       <Property Name="DayOfMonth" Default="ValueIsDefault" />
       <Property Name="AutomationMode">
-        <Value>ScanDownloadApplyNotify</Value>
+        <Value>ScanDownloadNotify</Value>
       </Property>
       <Property Name="ScheduledExecution" Default="ValueIsDefault" />
       <Property Name="DeferUpdate" Default="ValueIsDefault" />
       <Property Name="DisableNotification" Default="ValueIsDefault" />
-      <Property Name="InstallationDeferral">
-        <Value>true</Value>
-      </Property>
+      <Property Name="InstallationDeferral" Default="ValueIsDefault" />
       <Property Name="DeferralInstallInterval">
         <Value>6</Value>
       </Property>
